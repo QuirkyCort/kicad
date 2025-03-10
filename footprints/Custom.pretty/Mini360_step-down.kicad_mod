@@ -21,7 +21,7 @@
   (pad "2" thru_hole oval (at -7.62 4.57) (size 2.5 2) (drill 0.762) (layers "*.Cu" "*.Mask") (tstamp 6ad36e72-5cdc-4819-a694-cd2315b3ac14))
   (pad "3" thru_hole oval (at 7.62 -4.57) (size 2.5 2) (drill 0.762) (layers "*.Cu" "*.Mask") (tstamp 78a193e7-b2bc-4e33-bda6-5a5add089454))
   (pad "4" thru_hole oval (at 7.62 4.57) (size 2.5 2) (drill 0.762) (layers "*.Cu" "*.Mask") (tstamp 4f1c7b71-a057-4e40-a49f-4348168f735b))
-  (model "/home/cort/kicad_lib/3dmodels/Mini 360.step"
+  (model "/home/cort/git/kicad/3dmodels/Mini 360.step"
     (offset (xyz 0 0 1))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

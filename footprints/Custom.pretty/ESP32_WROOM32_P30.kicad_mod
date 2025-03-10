@@ -44,7 +44,7 @@
   (pad "28" thru_hole oval (at 13.08 11.56) (size 1.524 1.9) (drill 0.8) (layers "*.Cu" "*.Mask") (tstamp e85bcd3c-e7e6-47a2-94ef-83b4392edb7e))
   (pad "29" thru_hole oval (at 15.62 11.56) (size 1.524 1.9) (drill 0.8) (layers "*.Cu" "*.Mask") (tstamp cda03120-e36c-4d0e-83c1-8a3137f4f0c6))
   (pad "30" thru_hole oval (at 18.16 11.56) (size 1.524 1.9) (drill 0.8) (layers "*.Cu" "*.Mask") (tstamp d141df10-7b38-4e8c-a31c-369ef5facf4e))
-  (model "/home/cort/kicad_lib/3dmodels/ESP32_WROOM32_P30.step"
+  (model "/home/cort/git/kicad/3dmodels/ESP32_WROOM32_P30.step"
     (offset (xyz 26 14 4))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 180))
