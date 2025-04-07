@@ -1,0 +1,143 @@
+(footprint "Potentiometer THT"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "1adb0fd4-e7d4-4a33-ba05-3becb0625086")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Potentiometer THT"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "16b87b56-f486-41d2-81e2-0393752a16df")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0b17958d-0b2e-4398-b744-cfd2cbf710ea")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "76348445-5da0-4538-a7f5-c65df8ef01d6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -2.36 -12.85)
+		(end 7.44 -1.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "692bd5ac-9ce1-4dc0-8e69-044aa6b509e1")
+	)
+	(fp_circle
+		(center 2.54 -7)
+		(end 5.08 -5.08)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "96331cdc-b5d1-4a1c-bd6d-d5727b7ada2d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c2fb73ef-c31a-47b5-951a-47cf9de240e8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" thru_hole circle
+		(at -2.71 -7)
+		(size 3.5 3.5)
+		(drill 2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "eeb10303-73bf-4da5-b6a0-7067fd9a521b")
+	)
+	(pad "" thru_hole circle
+		(at 7.79 -7)
+		(size 3.5 3.5)
+		(drill 2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "59336e9b-5adc-49f9-8b4b-1f4dbbae6c82")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2.3 2.3)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3c366db8-4def-4b94-ba1a-7371f33dead1")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 0)
+		(size 2.3 2.3)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d4a68555-3590-4e21-80a4-b3071030383c")
+	)
+	(pad "3" thru_hole circle
+		(at 5.08 0)
+		(size 2.3 2.3)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3d2f6457-39e5-4b4e-bee2-6a10c31934da")
+	)
+	(embedded_fonts no)
+	(model "/home/cort/git/kicad/3dmodels/Potentiometer THT.step"
+		(offset
+			(xyz 2.55 7 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
