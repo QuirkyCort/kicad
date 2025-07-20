@@ -4,7 +4,7 @@
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -0.5 0)
+		(at 4.445 2.54 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "ecc9ae58-19f4-4fb8-9f76-73973fe565d2")
@@ -15,8 +15,8 @@
 			)
 		)
 	)
-	(property "Value" "ESP32_C3_Supermini"
-		(at 0 1 0)
+	(property "Value" "ESP32C3"
+		(at 3.81 -2.54 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "ca540406-5d56-48b7-8c20-7a893c83cb64")
@@ -55,15 +55,15 @@
 	)
 	(attr through_hole)
 	(fp_rect
-		(start -14.36 4.13)
-		(end -12.59 -4.18)
+		(start -14.36 -4.18)
+		(end -8.22998 4.13)
 		(stroke
 			(width 0.1)
-			(type solid)
+			(type default)
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "365e5768-6aeb-41b9-a3d1-d5dbc01ff5b9")
+		(uuid "d8368ada-a576-415c-896d-22951573ac1d")
 	)
 	(fp_rect
 		(start -12.59 9.05)
@@ -76,17 +76,49 @@
 		(layer "F.SilkS")
 		(uuid "8462449b-0c6c-4b75-b5e6-6ae22866fc9d")
 	)
-	(fp_text user "${REFERENCE}"
-		(at 0 2.54 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(uuid "2d998332-cc2e-4adf-ada4-f8d3c2f975ba")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
+	(fp_rect
+		(start -5.715 -5.08)
+		(end -2.54 -0.635)
+		(stroke
+			(width 0.1)
+			(type default)
 		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "2d78ed22-6bfb-4552-83bf-3a167dba0d86")
+	)
+	(fp_rect
+		(start -5.715 0.635)
+		(end -2.54 5.08)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "5d4996ec-0766-41cb-9eba-fc51cfd8804f")
+	)
+	(fp_circle
+		(center -4.1275 -2.8575)
+		(end -3.175 -1.905)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "085b25fc-b60f-4a2d-bdce-ca756e0ece7a")
+	)
+	(fp_circle
+		(center -4.1275 2.8575)
+		(end -3.175 3.81)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "301abcdd-de66-4ef0-a274-5c6eb98c4c68")
 	)
 	(pad "1" thru_hole circle
 		(at -10.7 7.53)

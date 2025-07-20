@@ -4,7 +4,7 @@
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -0.5 0)
+		(at 29.75 -43.815 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "2f670ef3-6c39-4529-b570-9c728eaa7c05")
@@ -16,7 +16,7 @@
 		)
 	)
 	(property "Value" "18650 x3"
-		(at 0 1 0)
+		(at 29.75 -38.8 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "a27a2533-f6c1-46a2-97a9-23728a3c52ef")
@@ -66,7 +66,7 @@
 		(uuid "25064c81-fcab-4c1f-92e1-f0ddcb72380d")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 2.5 0)
+		(at 29.75 -34.29 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "d3016546-41d9-4847-9021-58d90439c4e9")

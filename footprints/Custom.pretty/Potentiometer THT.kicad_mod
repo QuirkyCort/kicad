@@ -4,7 +4,7 @@
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -0.5 0)
+		(at 2.54 -11.43 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "1adb0fd4-e7d4-4a33-ba05-3becb0625086")
@@ -15,8 +15,8 @@
 			)
 		)
 	)
-	(property "Value" "Potentiometer THT"
-		(at 0 1 0)
+	(property "Value" "Potentiometer"
+		(at 2.54 -2.54 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "16b87b56-f486-41d2-81e2-0393752a16df")
@@ -75,18 +75,6 @@
 		(fill no)
 		(layer "F.SilkS")
 		(uuid "96331cdc-b5d1-4a1c-bd6d-d5727b7ada2d")
-	)
-	(fp_text user "${REFERENCE}"
-		(at 0 2.5 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(uuid "c2fb73ef-c31a-47b5-951a-47cf9de240e8")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
 	)
 	(pad "" thru_hole circle
 		(at -2.71 -7)
